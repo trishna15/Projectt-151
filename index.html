@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>CAR MODEL</title>
+
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="./base.js"></script>
+    <script src="./car.js"></script>
+
+</head>
+
+<body>
+    <a-scene>
+        <a-enity id="base" color="#626666" base></a-enity>
+        <a-entity id="car" car></a-entity>
+
+        <a-camera wasd-controls-enabled="false" position="0 50 550"></a-camera>
+    </a-scene>
+
+</body>
+</html>
